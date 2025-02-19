@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-color: #ffe3e3;
+  margin: 0;
+}
+h3 {
+  font-family: 'Secular One';
+  font-size: 0.97em;
+}
+p {
+  font-family: 'Varela Round';
+  font-size: 12px;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: black;
+}
+.active {
+  background-color: #595959;
+}
+li {
+  float: center;
+  display: inline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.letter {
+  direction: rtl;
+  text-align: right;
+  font-size: 1.5em;
+  color: black;
+  margin: 10px;
+}
+#sign {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: #ffe3e3;
+  margin: 0;
+}
+img {
+  border-radius: 100%;
+  width: 350px;
+}
+header {
+  background-color: #fef9f2;
+  padding: 10px;
+  font-family: 'Rancho', serif;
+  font-size: 3.5em;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: black;
+}
+.active {
+  background-color: #595959;
+}
+li {
+  float: center;
+  display: inline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
